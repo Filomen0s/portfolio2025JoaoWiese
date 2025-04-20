@@ -1,0 +1,229 @@
+body{
+    background-color: #0d071f;
+    color: #fff;
+    margin: 0svb;
+    overflow:none; 
+    scrollbar-width: hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none   ;
+}
+
+/* FONTE */
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins-regular", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+/* FONTE */
+
+.area-inicio{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.cabecalho-inicio{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border: solid 0px #fff;
+    background-color: #150a35;
+}
+
+.imgAssinatura{
+    height: 100%;
+    border: solid 0px #fff;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 13%;
+}
+
+.irParaTecnico{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    height: fit-content;
+    font-size: 25px;
+    margin-top: 2.8%;
+    margin-right: 7%;
+    margin-left: 4%;
+    border: solid 0px #fff;
+    
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.irParaTecnico:hover{
+    transform: scale(1.12, 1.12);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.irParaTecnico:active{
+    transform: scale(1.0, 1.0);
+}
+
+.botoesInicio{
+    height: fit-content;
+    width: fit-content;
+    border: solid 0px;
+    margin: 0;
+}
+
+.irParaMedio{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    height: fit-content;
+
+    font-size: 27px;
+    margin-top: 2.8%;
+    margin-right: 2%;
+    margin-left: 4%;
+    border: solid 0px #fff;
+    
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.irParaMedio:hover{
+    transform: scale(1.09, 1.09);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.irParaMedio:active{
+    transform: scale(1.0, 1.0);
+}
+
+.irParaPPE{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    height: fit-content;
+
+    font-size: 25px;
+    margin-top: 2.8%;
+    margin-right: 4.5%;
+    margin-left: 1%;
+    height: fit-content;
+    border: solid 0px #fff;
+    
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.irParaPPE:hover{
+    transform: scale(1.16, 1.16);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.irParaPPE:active{
+    transform: scale(1.0, 1.0);
+}
+
+.irParaInicio{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    height: fit-content;
+
+    font-size: 25px;
+    margin-top: 2.8%;
+    margin-right: 3%;
+    margin-left: 16%;
+    border: solid 0px #fff;
+
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+
+
+}
+
+.irParaInicio:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.irParaInicio:active{
+    transform: scale(1.0, 1.0);
+}
+
+.fundoMateria{
+    background-image: url("../../imagens/fundoHumanas.jpg");
+    background-position: 50%;
+    background-size: 100%;
+    height: 500px;
+    border-bottom: solid 3px #421d88;
+    border-top: solid 3px #421d88;
+}
+
+.MateriaTitulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.areaProjetos{
+    border: solid 0px #fff;
+    margin-top: 10%;
+}
+
+.tituloProjetos{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    margin-bottom: 7%;
+}
+
+.erro{
+    font-family: "Poppins", sans-serif;
+    font-size: 90px;
+    margin-bottom: -2%;
+    color: #ff0000;
+}
+
+.erro-2{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10%;
+    color: #6d0a0a;
+}

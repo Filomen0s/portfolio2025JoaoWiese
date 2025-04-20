@@ -1,0 +1,353 @@
+body{
+    background-color: #0d071f;
+    color: #fff;
+    margin: 0svb;
+    overflow:none; 
+    scrollbar-width: hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none   ;
+}
+
+/* FONTE */
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins-regular", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+/* FONTE */
+
+.area-medio{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 1200px;
+}
+
+.cabecalho-inicio{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    border: solid 0px #fff;
+    background-color: #150a35;
+}
+
+.imgAssinatura{
+    height: 100%;
+    border: solid 0px #fff;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 13%;
+}
+
+.irParaTecnico{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    height: fit-content;
+    font-size: 25px;
+    margin-top: 2.8%;
+    margin-right: 7%;
+    margin-left: 4%;
+    border: solid 0px #fff;
+    
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.irParaTecnico:hover{
+    transform: scale(1.12, 1.12);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.irParaTecnico:active{
+    transform: scale(1.0, 1.0);
+}
+
+.botoesInicio{
+    height: fit-content;
+    width: fit-content;
+    border: solid 0px;
+    margin: 0;
+}
+
+.irParaInicio{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    height: fit-content;
+
+    font-size: 27px;
+    margin-top: 2.8%;
+    margin-right: 9.5%;
+    margin-left: 20%;
+    border: solid 0px #fff;
+    
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.irParaInicio:hover{
+    transform: scale(1.09, 1.09);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.irParaInicio:active{
+    transform: scale(1.0, 1.0);
+}
+
+.irParaPPE{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    height: fit-content;
+
+    font-size: 25px;
+    margin-top: 2.8%;
+    margin-right: 4.5%;
+    margin-left: 4%;
+    height: fit-content;
+    border: solid 0px #fff;
+    
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.irParaPPE:hover{
+    transform: scale(1.16, 1.16);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.irParaPPE:active{
+    transform: scale(1.0, 1.0);
+}
+
+.minhasMaterias{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: -1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.areaMaterias{
+    display: flex;
+    margin-top: 0%;
+}
+
+.primeiroTri{
+    margin-bottom: 5%;
+    color: #4d4d4d;
+}
+
+.primeiroTri:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.25s;
+    transform: scale(1.1, 1.1);
+}
+
+.segundoTri{
+    margin-bottom: 5%;
+    color: #4d4d4d;
+
+    transition: 0.25s;
+    transform: scale(1.0, 1.0);
+}
+
+.segundoTri:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.25s;
+    transform: scale(1.1, 1.1);
+}
+
+.terceiroTri{
+    color: #4d4d4d;
+    
+    transition: 0.25s;
+    transform: scale(1.0, 1.0);
+}
+
+.terceiroTri:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.25s;
+    transform: scale(1.1, 1.1);
+}
+
+.materia1e2{
+    display: block;
+    border: solid 0px #fff;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 17%;
+    margin-top: 10%;
+}
+
+.materia3e4{
+    display: block;
+    border: solid 0px #fff;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.areaNatureza{
+    display: flex;
+    border: solid 0px #fff;
+    margin-bottom: 35%;
+    max-height: 200px;
+}
+
+.imgNatureza{
+    border: solid 0px #fff;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    filter: drop-shadow(0px 0px 80px #3e06a5);
+}
+
+.sumarioNatureza{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-top: 30%;
+}
+
+.sumarioNatureza:hover{
+    cursor: pointer;
+}
+
+.listaNatureza{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-left: -18%;
+}
+
+.areaHumanas{
+    display: flex;
+    border: solid 0px #fff;
+    max-height: 200px;
+}
+
+.imgHumanas{
+    border: solid 0px #fff;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    filter: drop-shadow(0px 0px 80px #3e06a5);
+}
+
+.sumarioHumanas{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-top: 30%;
+}
+
+.sumarioHumanas:hover{
+    cursor: pointer;
+}
+
+.listaHumanas{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-left: -18%;
+}
+
+.areaLinguagens{
+    display: flex;
+    border: solid 0px #fff;
+    margin-bottom: 33%;
+    max-height: 200px;
+}
+
+.imgLinguagens{
+    border: solid 0px #fff;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    filter: drop-shadow(0px 0px 80px #3e06a5);
+}
+
+.sumarioLinguagens{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-top: 24%;
+}
+
+.sumarioLinguagens:hover{
+    cursor: pointer;
+}
+
+.listaLinguagens{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-left: -18%;
+}
+
+.areaMatematica{
+    display: flex;
+    border: solid 0px #fff;
+    max-height: 200px;
+}
+
+.imgMatematica{
+    border: solid 0px #fff;
+    width: 190px;
+    max-width: 190px;
+    max-height: 190px;
+
+    filter: drop-shadow(0px 0px 80px #3e06a5);
+}
+
+.sumarioMatematica{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-top: 24%;
+}
+
+.sumarioMatematica:hover{
+    cursor: pointer;
+}
+
+.listaMatematica{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-left: -18%;
+}
