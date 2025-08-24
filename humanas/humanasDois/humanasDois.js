@@ -25,5 +25,5 @@ function irParaProjetoDois(){
 }
 
 function irParaProjetoTres(){
-    window.location.href = "https://www.canva.com/design/DAGhn16QwnE/A0h8BcWmWYRiOt1PdOzq3Q/edit?utm_content=DAGhn16QwnE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    window.location.href = "https://www.canva.com/design/DAGnVusCWho/8T5HLcvgF394aFgtzPX_nA/edit?utm_content=DAGnVusCWho&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 }
