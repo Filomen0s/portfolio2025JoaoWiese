@@ -1,5 +1,5 @@
 function irParaInicio(){
-    window.location.href = "../../pagina_inicial/index.html"
+    window.location.href = "../../index.html"
 }
 
 function irParaMedio(){
@@ -12,4 +12,19 @@ function irParaTecnico(){
 
 function irParaPPE(){
     window.location.href = "../../ppe/ppe.html"
+}
+
+
+// Trabalhos
+
+function irParaProjetoUm(){
+    window.location.href = "https://www.canva.com/design/DAGw57f0zb0/T6uAa1jICTzNzOsAK81NiQ/edit?utm_content=DAGw57f0zb0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+}
+
+function irParaProjetoDois(){
+    window.location.href = "https://www.canva.com/design/DAGsH1TM-xI/Ny1XkF5yxKyUOdmANRpEjQ/edit?utm_content=DAGsH1TM-xI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+}
+
+function irParaProjetoTres(){
+    window.location.href = "https://www.canva.com/design/DAGhn16QwnE/A0h8BcWmWYRiOt1PdOzq3Q/edit?utm_content=DAGhn16QwnE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 }

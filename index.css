@@ -508,6 +508,9 @@ body::-webkit-scrollbar{
     transform: scale(1.0, 1.0);
 }
 
+
+/* Rodape */
+
 .rodape{
     background-color: #000000;
     margin-top: 15%;

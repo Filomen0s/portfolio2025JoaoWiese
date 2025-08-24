@@ -3,19 +3,65 @@ function irParaInicio(){
 }
 
 function irParaMedio(){
-    window.location.href = "../ensinoMedio/ensinoMedio.html"
+    window.location.href = "/ensinoMedio/ensinoMedio.html"
 }
 
 function irParaPPE(){
     window.location.href = "../ppe/ppe.html"
 }
 
-//Ir para trabalhos
+//Materias
 
-function irParaProjetoUm(){
-    window.location.href = "https://docs.google.com/spreadsheets/d/18nHxYf0MGPp56wS2qj8SN6mHr6kZUCesoIywkdC_y0k/edit?usp=sharing"
+function irParaModSistemasUm(){
+    window.location.href = "../modelagemDeSistemas/modelagemDeSistemasUm/modelagemDeSistemasUm.html"
 }
 
-function irParaProjetoDois(){
-    window.location.href = "https://www.canva.com/design/DAGhnNK9LIY/bouP9yowGIC6vczh4asWoA/edit?utm_content=DAGhnNK9LIY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+function irParaModSistemasDois(){
+    window.location.href = "../modelagemDeSistemas/modelagemDeSistemasDois/modelagemDeSistemasDois.html"
+}
+
+function irParaModSistemasTres(){
+    window.location.href = "../modelagemDeSistemas/modelagemDeSistemasTres/modelagemDeSistemasTres.html"
+}
+
+
+
+function irParaIOTUm(){
+    window.location.href = "../IOT/IOTUm/IOTUm.html"
+}
+
+function irParaIOTDois(){
+    window.location.href = "../IOT/IOTDois/IOTDois.html"
+}
+
+function irParaIOTTres(){
+    window.location.href = "../IOT/IOTTres/IOTTres.html"
+}
+
+
+
+function irParaBancoDadosUm(){
+    window.location.href = "../bancoDeDados/bancoDeDadosUm/bancoDeDadosUm.html"
+}
+
+function irParaBancoDadosDois(){
+    window.location.href = "../bancoDeDados/bancoDeDadosDois/bancoDeDadosDois.html"
+}
+
+function irParaBancoDadosTres(){
+    window.location.href = "../bancoDeDados/bancoDeDadosTres/bancoDeDadosTres.html"
+}
+
+
+
+function irParaDevSistemasUm(){
+    window.location.href = "../desenvolvimentoDeSistemas/desenvolvimentoDeSistemasUm/desenvolvimentoDeSistemasUm.html"
+}
+
+function irParaDevSistemasDois(){
+    window.location.href = "../desenvolvimentoDeSistemas/desenvolvimentoDeSistemasDois/desenvolvimentoDeSistemasDois.html"
+}
+
+function irParaDevSistemasTres(){
+    window.location.href = "../desenvolvimentoDeSistemas/desenvolvimentoDeSistemasTres/desenvolvimentoDeSistemasTres.html"
 }

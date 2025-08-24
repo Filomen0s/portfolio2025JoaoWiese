@@ -31,10 +31,11 @@ body::-webkit-scrollbar{
 
 /* FONTE */
 
-.area-inicio{
+.area-medio{
     align-items: center;
     text-align: center;
     justify-content: center;
+    height: 1200px;
 }
 
 .cabecalho-inicio{
@@ -53,6 +54,35 @@ body::-webkit-scrollbar{
     margin-right: 13%;
 }
 
+.irParaTecnico{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+    width: fit-content;
+    height: fit-content;
+    font-size: 25px;
+    margin-top: 2.8%;
+    margin-right: 7%;
+    margin-left: 4%;
+    border: solid 0px #fff;
+    
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.irParaTecnico:hover{
+    transform: scale(1.12, 1.12);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.irParaTecnico:active{
+    transform: scale(1.0, 1.0);
+}
+
 .botoesInicio{
     height: fit-content;
     width: fit-content;
@@ -60,7 +90,7 @@ body::-webkit-scrollbar{
     margin: 0;
 }
 
-.irParaMedio{
+.irParaInicio{
 
     align-items: center;
     text-align: center;
@@ -72,21 +102,21 @@ body::-webkit-scrollbar{
 
     font-size: 27px;
     margin-top: 2.8%;
-    margin-right: 2%;
-    margin-left: 4%;
+    margin-right: 9.5%;
+    margin-left: 20%;
     border: solid 0px #fff;
     
     transform: scale(1.0, 1.0);
     transition: 0.25s ease-in-out;
 }
 
-.irParaMedio:hover{
+.irParaInicio:hover{
     transform: scale(1.09, 1.09);
     transition: 0.25s ease-in-out;
     cursor: pointer;
 }
 
-.irParaMedio:active{
+.irParaInicio:active{
     transform: scale(1.0, 1.0);
 }
 
@@ -121,271 +151,227 @@ body::-webkit-scrollbar{
     transform: scale(1.0, 1.0);
 }
 
-.irParaInicio{
-
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-
+.minhasMaterias{
     font-family: "Poppins", sans-serif;
-    width: fit-content;
-    height: fit-content;
-
-    font-size: 25px;
-    margin-top: 2.8%;
-    margin-right: 3%;
-    margin-left: 25%;
-    border: solid 0px #fff;
-
-    transform: scale(1.0, 1.0);
-    transition: 0.25s ease-in-out;
-}
-
-.irParaInicio:hover{
-    transform: scale(1.1, 1.1);
-    transition: 0.25s ease-in-out;
-    cursor: pointer;
-}
-
-.irParaInicio:active{
-    transform: scale(1.0, 1.0);
-}
-
-.fundoMateria{
-    background-image: url("../imagens/fundoSistemas.jpg");
-    background-position: 50%;
-    background-size: 100%;
-    height: 500px;
-    border-bottom: solid 3px #421d88;
-    border-top: solid 3px #421d88;
-}
-
-.MateriaTitulo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
     font-size: 50px;
-    font-family: "Poppins", sans-serif;
-}
-
-
-
-
-.areaProjetos{
-    border: solid 0px #fff;
     margin-top: 10%;
-    margin-bottom: 9.1%;
+    margin-bottom: -1%;
 }
 
-.tituloProjetos{
-    font-family: "Poppins", sans-serif;
-    font-size: 35px;
-    margin-bottom: 7%;
+ul {
+    list-style-type: none;
 }
 
-.projeto-1{
+.areaMaterias{
     display: flex;
-    border: solid 0px #fff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    margin-left: -9%;
+    margin-top: 0%;
 }
 
-.areaDescricaoProjeto-1{
-    background-color: #ffffff28;
-    backdrop-filter: blur(10px);
-    border: solid 0px #fff;
-    font-size: 17px;
-    height: 150px;
-    width: 45%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    border-radius: 15px;
-    margin-left: 14%;
-
-    z-index: 1;
+.primeiroTri{
+    margin-bottom: 1%;
+    color: #4d4d4d;
 }
 
-.descricaoProjeto-1{
-    margin-top: 2%;
-    margin-left: 9%;
-    text-align: left;
-    width: 600px;
-    font-family: "Poppins", sans-serif;
-}
-
-.irParaProjeto-1{
-    height: 330px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 20px;
-    margin-left: 7.6%;
-    margin-top: 4.7%;
-}
-
-.parteTras-1{
-    background-color: #210a4e;
-    height: 360px;
-    width: 635px;
-    margin-left: -90%;
-    margin-right: 8%;
-    border: solid 0px #fff;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-
-    transform: scale(1.0, 1.0);
-    transition: 0.25s ease-in-out;
-}
-
-.parteTras-1:hover{
-    transform: scale(1.03, 1.03);
-    transition: 0.25s ease-in-out;
+.primeiroTri:hover{
+    color: #fff;
     cursor: pointer;
+    transition: 0.25s;
+    transform: scale(1.1, 1.1);
 }
 
-.parteTras-1:active{
+.segundoTri{
+    margin-bottom: 1%;
+    color: #4d4d4d;
+
+    transition: 0.25s;
     transform: scale(1.0, 1.0);
 }
 
-.iluminacao-1{
-    border: solid 0px #fff;
-    height: 350px;
-    width: 120px;
-    margin-right: 82%;
-    margin-left: -46%;
-    box-shadow: 0 0 900px 30px rgb(104, 45, 221), 0 0 50px 0px rgb(111, 69, 197) inset;
+.segundoTri:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.25s;
+    transform: scale(1.1, 1.1);
 }
 
-.infoProjeto-1{
-    border: solid 0px #fff;
-    margin-top: -19%;
-    margin-right: 60%;
-    margin-left: -90%;
-    text-align: left;
-}
-
-.nomeProjeto-1{
-    font-family: "Poppins", sans-serif;
-    font-size: 30px;
-
-}
-
-.HabilidadeProjeto-1{
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    color: #4620b7;
-}
-
-
-
-
-
-
-
-.projeto-2{
-    display: flex;
-    border: solid 0px #fff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 13%;
-    margin-top: 13%;
+.terceiroTri{
+    color: #4d4d4d;
     
-}
-
-.areaDescricaoProjeto-2{
-    background-color: #ffffff28;
-    backdrop-filter: blur(10px);
-    border: solid 0px #fff;
-    font-size: 17px;
-    height: 150px;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    border-radius: 15px;
-    margin-left: -8%;
-}
-
-.descricaoProjeto-2{
-    margin-top: 2%;
-    margin-left: 11%;
-    text-align: left;
-    width: 600px;
-    font-family: "Poppins", sans-serif;
-}
-
-.irParaProjeto-2{
-    height: 330px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin-left: -7.439%;
-    margin-top: 4.7%;
-}
-
-.parteTras-2{
-    background-color: #210a4e;
-    height: 360px;
-    width: 635px;
-    margin-left: 4%;
-    margin-right: 5%;
-    border: solid 0px #fff;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-
+    transition: 0.25s;
     transform: scale(1.0, 1.0);
-    transition: 0.25s ease-in-out;
 }
 
-.iluminacao-2{
+.terceiroTri:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.25s;
+    transform: scale(1.1, 1.1);
+}
+
+.materia1e2{
+    display: block;
     border: solid 0px #fff;
-    height: 350px;
-    width: 120px;
-    margin-right: -12%;
-    margin-left: 12%;
-    box-shadow: 0 0 900px 30px rgb(104, 45, 221), 0 0 50px 0px rgb(111, 69, 197) inset;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 17%;
+    margin-top: 10%;
 }
 
-.parteTras-2:hover{
-    transform: scale(1.03, 1.03);
-    transition: 0.25s ease-in-out;
+.materia3e4{
+    display: block;
+    border: solid 0px #fff;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 0%;
+    margin-top: 10%;
+}
+
+.areaModSistemas{
+    display: flex;
+    border: solid 0px #fff;
+    margin-bottom: 35%;
+    max-height: 200px;
+}
+
+.imgModSistemas{
+    border: solid 0px #fff;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    filter: drop-shadow(0px 0px 80px #3e06a5);
+}
+
+.sumarioModSistemas{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-top: 12%;
+    border: solid 0px #fff;
+    width: 60%;
+    margin-left: -3%;
+}
+
+.sumarioModSistemas:hover{
     cursor: pointer;
 }
 
-.parteTras-2:active{
-    transform: scale(1.0, 1.0);
+.listaModSistemas{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-left: -60%;
 }
 
-.infoProjeto-2{
+
+
+
+.areaIOT{
+    display: flex;
     border: solid 0px #fff;
-    margin-top: -21%;
-    margin-right: -20%;
-    margin-left: 0%;
-    text-align: left;
+    max-height: 200px;
+    margin-top: -12%;
 }
 
-.nomeProjeto-2{
+.imgIOT{
+    border: solid 0px #fff;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    filter: drop-shadow(0px 0px 80px #3e06a5);
+}
+
+.sumarioIOT{
     font-family: "Poppins", sans-serif;
     font-size: 30px;
-
+    margin-top: 4%;
+    border: solid 0px #fff;
+    max-width: fit-content;
+    position: absolute;
 }
 
-.HabilidadeProjeto-2{
+.sumarioIOT:hover{
+    cursor: pointer;
+}
+
+.listaIOT{
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    color: #4620b7;
+    font-size: 20px;
+    margin-left: -18%;
+    margin-top: 75%;
+}
+
+
+
+
+.areaBancoDados{
+    display: flex;
+    border: solid 0px #fff;
+    margin-bottom: 28%;
+    max-height: 200px;
+}
+
+.imgBancoDados{
+    border: solid 0px #fff;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    filter: drop-shadow(0px 0px 80px #3e06a5);
+}
+
+.sumarioBancoDados{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-top: 18%;
+    border: solid 0px #fff;
+    width: 90%;
+    margin-left: -14%;
+}
+
+.sumarioBancoDados:hover{
+    cursor: pointer;
+}
+
+.listaBancoDados{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-left: -45%;
+}
+
+
+
+
+.areaDevSistemas{
+    display: flex;
+    border: solid 0px #fff;
+    max-height: 200px;
+    margin-top: -4%;
+}
+
+.imgDevSistemas{
+    border: solid 0px #fff;
+    width: 190px;
+    max-width: 190px;
+    max-height: 190px;
+
+    filter: drop-shadow(0px 0px 80px #3e06a5);
+}
+
+.sumarioDevSistemas{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-top: 11%;
+    border: solid 0px #fff;
+    width: 70%;
+}
+
+.sumarioDevSistemas:hover{
+    cursor: pointer;
+}
+
+.listaDevSistemas{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-left: -57%;
+
 }

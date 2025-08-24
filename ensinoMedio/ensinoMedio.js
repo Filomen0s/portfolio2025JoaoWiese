@@ -1,5 +1,5 @@
 function irParaInicio(){
-    window.location.href = "../pagina_inicial/index.html"
+    window.location.href = "../../index.html"
 }
 
 function irParaTecnico(){
