@@ -227,3 +227,337 @@ body::-webkit-scrollbar{
     margin-bottom: 10%;
     color: #6d0a0a;
 }
+
+
+
+
+
+.projeto-1{
+    display: flex;
+    border: solid 0px #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-left: -9%;
+}
+
+.areaDescricaoProjeto-1{
+    background-color: #ffffff28;
+    backdrop-filter: blur(10px);
+    border: solid 0px #fff;
+    font-size: 17px;
+    height: 150px;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 15px;
+    margin-left: 14%;
+
+    z-index: 1;
+}
+
+.descricaoProjeto-1{
+    margin-top: 5%;
+    margin-left: 9%;
+    text-align: left;
+    width: 600px;
+    font-family: "Poppins", sans-serif;
+}
+
+.irParaProjeto-1{
+    height: 330px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    margin-left: 7.6%;
+    margin-top: 4.7%;
+}
+
+.parteTras-1{
+    background-color: #210a4e;
+    height: 360px;
+    width: 635px;
+    margin-left: -90%;
+    margin-right: 8%;
+    border: solid 0px #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.parteTras-1:hover{
+    transform: scale(1.03, 1.03);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.parteTras-1:active{
+    transform: scale(1.0, 1.0);
+}
+
+.iluminacao-1{
+    border: solid 0px #fff;
+    height: 350px;
+    width: 120px;
+    margin-right: 82%;
+    margin-left: -46%;
+    box-shadow: 0 0 900px 30px rgb(104, 45, 221), 0 0 50px 0px rgb(111, 69, 197) inset;
+}
+
+.infoProjeto-1{
+    border: solid 0px #fff;
+    margin-top: -19%;
+    margin-right: 60%;
+    margin-left: -90%;
+    text-align: left;
+}
+
+.nomeProjeto-1{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+
+}
+
+.HabilidadeProjeto-1{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #4620b7;
+}
+
+
+
+
+
+
+
+.projeto-2{
+    display: flex;
+    border: solid 0px #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 13%;
+    margin-top: 13%;
+    
+}
+
+.areaDescricaoProjeto-2{
+    background-color: #ffffff28;
+    backdrop-filter: blur(10px);
+    border: solid 0px #fff;
+    font-size: 18px;
+    height: 150px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 15px;
+    margin-left: -5%;
+}
+
+.descricaoProjeto-2{
+    margin-top: 4.5%;
+    margin-left: 11%;
+    text-align: left;
+    width: 600px;
+    font-family: "Poppins", sans-serif;
+}
+
+.irParaProjeto-2{
+    height: 330px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: -7.439%;
+    margin-top: 4.7%;
+}
+
+.parteTras-2{
+    background-color: #210a4e;
+    height: 360px;
+    width: 635px;
+    margin-left: 4%;
+    margin-right: 5%;
+    border: solid 0px #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.iluminacao-2{
+    border: solid 0px #fff;
+    height: 350px;
+    width: 120px;
+    margin-right: -12%;
+    margin-left: 12%;
+    box-shadow: 0 0 900px 30px rgb(104, 45, 221), 0 0 50px 0px rgb(111, 69, 197) inset;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.parteTras-2:hover{
+    transform: scale(1.03, 1.03);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.parteTras-2:active{
+    transform: scale(1.0, 1.0);
+}
+
+.infoProjeto-2{
+    border: solid 0px #fff;
+    margin-top: -21%;
+    margin-right: -35%;
+    margin-left: 0%;
+    text-align: left;
+    width: 30%;
+}
+
+.nomeProjeto-2{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+
+}
+
+.HabilidadeProjeto-2{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #4620b7;
+}
+
+
+
+
+
+.projeto-3{
+    display: flex;
+    border: solid 0px #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-left: -9%;
+    margin-bottom: 10%;
+}
+
+.areaDescricaoProjeto-3{
+    background-color: #ffffff28;
+    backdrop-filter: blur(10px);
+    border: solid 0px #fff;
+    font-size: 17px;
+    height: 150px;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 15px;
+    margin-left: 14%;
+
+    z-index: 1;
+}
+
+.descricaoProjeto-3{
+    margin-top: 3.5%;
+    margin-left: 9%;
+    text-align: left;
+    width: 600px;
+    font-family: "Poppins", sans-serif;
+}
+
+.irParaProjeto-3{
+    height: 330px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    margin-left: 7.6%;
+    margin-top: 4.7%;
+}
+
+.parteTras-3{
+    background-color: #210a4e;
+    height: 360px;
+    width: 635px;
+    margin-left: -90%;
+    margin-right: 8%;
+    border: solid 0px #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    transform: scale(1.0, 1.0);
+    transition: 0.25s ease-in-out;
+}
+
+.parteTras-3:hover{
+    transform: scale(1.03, 1.03);
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.parteTras-3:active{
+    transform: scale(1.0, 1.0);
+}
+
+.iluminacao-3{
+    border: solid 0px #fff;
+    height: 350px;
+    width: 120px;
+    margin-right: 82%;
+    margin-left: -46%;
+    box-shadow: 0 0 900px 30px rgb(104, 45, 221), 0 0 50px 0px rgb(111, 69, 197) inset;
+}
+
+.infoProjeto-3{
+    border: solid 0px #fff;
+    margin-top: -19%;
+    margin-right: 60%;
+    margin-left: -90%;
+    text-align: left;
+}
+
+.nomeProjeto-3{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+
+}
+
+.HabilidadeProjeto-3{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #4620b7;
+}
+
+.infoProjeto-3{
+    border: solid 0px #fff;
+    margin-top: -19%;
+    margin-right: 60%;
+    margin-left: -90%;
+    text-align: left;
+}
+
+.nomeProjeto-3{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+
+}
+
+.HabilidadeProjeto-3{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #4620b7;
+}

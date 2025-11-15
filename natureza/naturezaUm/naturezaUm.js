@@ -18,17 +18,17 @@ function irParaPPE(){
 //Ir para trabalhos
 
 function irParaProjetoUm(){
-    window.location.href = "https://www.canva.com/design/DAGe-lMd-9Y/Y-ZmIOTHZ_i35PLp5Xm7ww/edit?utm_content=DAGe-lMd-9Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    window.open("https://www.canva.com/design/DAGe-lMd-9Y/Y-ZmIOTHZ_i35PLp5Xm7ww/edit?utm_content=DAGe-lMd-9Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
 }
 
 function irParaProjetoDois(){
-    window.location.href = "https://drive.google.com/drive/folders/19IVUGXgac-rxoCwPpX8Ct0S15MmWCX1m?usp=sharing"
+    window.open("https://drive.google.com/drive/folders/19IVUGXgac-rxoCwPpX8Ct0S15MmWCX1m?usp=sharing", "_blank");
 }
 
 function irParaProjetoTres(){
-    window.location.href = "https://www.canva.com/design/DAGhn16QwnE/A0h8BcWmWYRiOt1PdOzq3Q/edit?utm_content=DAGhn16QwnE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    window.open("https://www.canva.com/design/DAGhn16QwnE/A0h8BcWmWYRiOt1PdOzq3Q/edit?utm_content=DAGhn16QwnE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
 }
 
 function irParaProjetoQuatro(){
-    window.location.href = "https://www.canva.com/design/DAGfiytPQ9s/iNMzn5pLPBbeBDfylgKltg/edit?utm_content=DAGfiytPQ9s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    window.open("https://www.canva.com/design/DAGfiytPQ9s/iNMzn5pLPBbeBDfylgKltg/edit?utm_content=DAGfiytPQ9s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
 }

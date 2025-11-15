@@ -17,9 +17,9 @@ function irParaPPE(){
 //Ir para trabalhos
 
 function irParaProjetoUm(){
-    window.location.href = "https://www.canva.com/design/DAGgf8A3l0E/kPyzG7H-S5w1kBc0OzojmQ/edit?utm_content=DAGgf8A3l0E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    window.open("https://www.canva.com/design/DAGgf8A3l0E/kPyzG7H-S5w1kBc0OzojmQ/edit?utm_content=DAGgf8A3l0E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
 }
 
 function irParaProjetoDois(){
-    window.location.href = "https://www.canva.com/design/DAGiu79r8bA/8WRmcxqvBQtTLnMTxHNUIg/edit?utm_content=DAGiu79r8bA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    window.open("https://www.canva.com/design/DAGiu79r8bA/8WRmcxqvBQtTLnMTxHNUIg/edit?utm_content=DAGiu79r8bA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", "_blank");
 }

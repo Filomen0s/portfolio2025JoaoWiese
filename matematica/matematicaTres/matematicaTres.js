@@ -13,3 +13,9 @@ function irParaTecnico(){
 function irParaPPE(){
     window.location.href = "../../ppe/ppe.html"
 }
+
+// Trabalhos
+
+function irParaProjetoUm(){
+    window.open("https://www.youtube.com/watch?v=LpFlRqsg-mc", "_blank");
+}

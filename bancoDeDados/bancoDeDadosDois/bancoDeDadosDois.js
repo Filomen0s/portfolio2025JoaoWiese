@@ -17,5 +17,5 @@ function irParaPPE(){
 //Ir para trabalhos
 
 function irParaProjetoUm(){
-    window.location.href = "https://docs.google.com/document/d/1Ewz2BIDlUa9lLbyFkxVBB7lblXOGxdDIzAc0gdyJq3s/edit?usp=sharing"
+    window.open("https://docs.google.com/document/d/1Ewz2BIDlUa9lLbyFkxVBB7lblXOGxdDIzAc0gdyJq3s/edit?usp=sharing", "_blank");
 }
