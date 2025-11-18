@@ -256,7 +256,7 @@ body::-webkit-scrollbar{
 }
 
 .irParaCurriculo:hover{
-    transform: scale(1.03,1.03);
+    transform: scale(1.015,1.015);
     transition: 0.25s ease-in-out;
     cursor: pointer;
 }
@@ -301,7 +301,7 @@ body::-webkit-scrollbar{
 }
 
 .port-1:hover{
-    transform: scale(1.05, 1.05);
+    transform: scale(1.02, 1.02);
     transition: 0.25s ease-in-out;
     cursor: pointer;
 }
@@ -318,7 +318,7 @@ body::-webkit-scrollbar{
 }
 
 .port-2:hover{
-    transform: scale(1.05, 1.05);
+    transform: scale(1.02, 1.02);
     transition: 0.25s ease-in-out;
     cursor: pointer;
 }
